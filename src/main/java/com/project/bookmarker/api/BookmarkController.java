@@ -1,6 +1,5 @@
 package com.project.bookmarker.api;
 
-import com.project.bookmarker.domain.Bookmark;
 import com.project.bookmarker.domain.BookmarkService;
 import com.project.bookmarker.domain.BookmarksDTO;
 import lombok.RequiredArgsConstructor;
@@ -8,8 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/bookmarks")
